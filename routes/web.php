@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Auth\DiscordController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -15,3 +16,9 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+Route::get('/login/discord', [DiscordController::class, 'redirect'])
+    ->name('login.discord');
+
+Route::get('/login/discord/callback', [DiscordController::class, 'callback'])
+    ->name('login.discord.callback');

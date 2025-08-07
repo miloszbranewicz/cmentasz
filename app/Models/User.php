@@ -20,6 +20,8 @@ class User extends Authenticatable
     use Notifiable;
     use TwoFactorAuthenticatable;
 
+    public mixed $discord_id;
+
     /**
      * The attributes that are mass assignable.
      *
@@ -29,6 +31,8 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'discord_id',
+        'avatar',
     ];
 
     /**
