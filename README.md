@@ -66,7 +66,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 - [x] Utwórz nowy projekt Laravel (`laravel new poe-taskboard`)
 - [x] Skonfiguruj Livewire (`composer require livewire/livewire`)
 - [x] Skonfiguruj TailwindCSS (`php artisan breeze:install blade` lub ręcznie)
-- [ ] Skonfiguruj MediaLibrary (`composer require spatie/laravel-medialibrary`)
+- [x] Skonfiguruj MediaLibrary (`composer require spatie/laravel-medialibrary`)
 - [ ] Skonfiguruj Discord OAuth (np. z `laravel/socialite-discord`)
 
 ### 2. Modele i migracje
