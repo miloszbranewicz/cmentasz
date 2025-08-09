@@ -67,14 +67,14 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 - [x] Skonfiguruj Livewire (`composer require livewire/livewire`)
 - [x] Skonfiguruj TailwindCSS (`php artisan breeze:install blade` lub ręcznie)
 - [x] Skonfiguruj MediaLibrary (`composer require spatie/laravel-medialibrary`)
-- [ ] Skonfiguruj Discord OAuth (np. z `laravel/socialite-discord`)
+- [x] Skonfiguruj Discord OAuth (np. z `laravel/socialite-discord`)
 
 ### 2. Modele i migracje
-- [ ] `users` – Discord ID, nazwa, avatar, admin flag
-- [ ] `leagues` – lista sezonów, flagowanie aktywnej ligi
-- [ ] `tasks` – tytuł, opis, nagroda, status, max zwycięzców
-- [ ] `task_submissions` – opis, media, is_winner
-- [ ] Relacje: User → Tasks, Task → Submissions
+- [x] `users` – Discord ID, nazwa, avatar, admin flag
+- [x] `leagues` – lista sezonów, flagowanie aktywnej ligi
+- [x] `tasks` – tytuł, opis, nagroda, status, max zwycięzców
+- [x] `task_submissions` – opis, media, is_winner
+- [x] Relacje: User → Tasks, Task → Submissions
 
 ### 3. Autoryzacja i logowanie
 - [ ] Implementacja logowania przez Discord OAuth
