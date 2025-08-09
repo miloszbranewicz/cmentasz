@@ -33,6 +33,7 @@ class User extends Authenticatable
         'password',
         'discord_id',
         'avatar',
+        'is_admin',
     ];
 
     /**
